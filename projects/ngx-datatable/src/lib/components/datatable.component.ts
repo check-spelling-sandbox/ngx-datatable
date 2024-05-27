@@ -504,7 +504,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   /**
    * Emits HTML5 native drag events.
    * Only emits dragenter, dragover, drop events by default.
-   * Set {@link rowDraggble} to true for dragstart and dragend.
+   * Set {@link rowDraggable} to true for dragstart and dragend.
    */
   @Output() rowDragEvents: EventEmitter<DragEventData> = new EventEmitter();
 
