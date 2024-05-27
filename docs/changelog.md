@@ -686,7 +686,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 
 ## 1.1.0
 
-- Feature: NGC Complation
+- Feature: NGC Compilation
 - Bug: Null value in deepValueGetter (swimlane/ngx-datatable#243)
 - Chore: Update Depedencies
 
