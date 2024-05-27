@@ -561,7 +561,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 - Bug: Permanently high CPU utilization after sorting (swimlane/ngx-datatable#359)
 - Bug: Fix checkbox showing in header if defined but not using checkbox select
 - Bug: Fix AoT errors (swimlane/ngx-datatable#370)
-- Bug: Fix build not outputing AoT files in correct directory
+- Bug: Fix build not outputting AoT files in correct directory
 - Bug: Fix checkbox selection not working w/ shift key
 - Chore: Upgrade Angular/Webpack
 
