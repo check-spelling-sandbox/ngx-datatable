@@ -586,7 +586,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   }
 
   /**
-   * CSS class added to root element if mulit select
+   * CSS class added to root element if multi select
    */
   @HostBinding('class.multi-selection')
   get isMultiSelection(): boolean {
@@ -594,7 +594,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   }
 
   /**
-   * CSS class added to root element if mulit click select
+   * CSS class added to root element if multi click select
    */
   @HostBinding('class.multi-click-selection')
   get isMultiClickSelection(): boolean {
