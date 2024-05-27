@@ -388,7 +388,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   @Input() displayCheck: (row: any, column?: any, value?: any) => boolean;
 
   /**
-   * A boolean you can use to set the detault behaviour of rows and groups
+   * A boolean you can use to set the default behaviour of rows and groups
    * whether they will start expanded or not. If ommited the default is NOT expanded.
    *
    */
