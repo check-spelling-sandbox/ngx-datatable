@@ -312,7 +312,7 @@
 
 - Bug: Fix checkbox not being shown #956
 - Bug: Fix IE displaying null #967
-- Bug: Fix emptry string is row is null #951
+- Bug: Fix empty string is row is null #951
 
 ## 10.2.2
 
