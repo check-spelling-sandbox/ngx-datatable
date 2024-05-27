@@ -61,7 +61,7 @@ export class SortingComparatorComponent {
   companyComparator(propA, propB) {
     console.log('Sorting Comparator', propA, propB);
 
-    // Just a simple sort function comparisoins
+    // Just a simple sort function comparisons
     if (propA.toLowerCase() < propB.toLowerCase()) {
       return -1;
     }
