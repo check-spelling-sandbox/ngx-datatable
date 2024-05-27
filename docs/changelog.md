@@ -278,7 +278,7 @@
 
 ## 11.0.4
 
-- Bug: Fix Angular5 Aot Issue
+- Bug: Fix Angular5 AOT Issue
 - Bug: Fix Vendor Prefix Error
 
 ## 11.0.1, 11.0.2, 11.0.3
