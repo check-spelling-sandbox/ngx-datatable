@@ -1178,7 +1178,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
    */
   onHeaderSelect(event: any): void {
     if (this.bodyComponent && this.selectAllRowsOnPage) {
-      // before we splice, chk if we currently have all selected
+      // before we splice, check if we currently have all selected
       const first = this.bodyComponent.indexes.first;
       const last = this.bodyComponent.indexes.last;
       const allSelected = this.selected.length === last - first;
@@ -1197,7 +1197,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
       } else {
         relevantRows = this.rows;
       }
-      // before we splice, chk if we currently have all selected
+      // before we splice, check if we currently have all selected
       const allSelected = this.selected.length === relevantRows.length;
       // remove all existing either way
       this.selected = [];

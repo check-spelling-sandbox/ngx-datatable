@@ -580,7 +580,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 ## 2.2.0
 
 - Bug: Fix AoT private props (swimlane/ngx-datatable#352)
-- Bug: Added null chk to selection getter (swimlane/ngx-datatable#340)
+- Bug: Added null check to selection getter (swimlane/ngx-datatable#340)
 - Bug: multiShift not working after first page (swimlane/ngx-datatable#294)
 - Chore: Update Angular to 2.3.0
 - Chore: Update TypeScript to 2.1.x
