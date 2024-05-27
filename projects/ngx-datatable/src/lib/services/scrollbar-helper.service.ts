@@ -2,7 +2,7 @@ import { Inject, Injectable } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
 /**
- * Gets the width of the scrollbar.  Necessary for windows
+ * Gets the width of the scrollbar.  Necessary for Windows
  * http://stackoverflow.com/a/13382873/888165
  */
 @Injectable()
