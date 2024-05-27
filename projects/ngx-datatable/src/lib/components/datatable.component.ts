@@ -546,7 +546,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
 
   /**
    * CSS class applied to the root element
-   * if the horziontal scrolling is enabled.
+   * if the horizontal scrolling is enabled.
    */
   @HostBinding('class.scroll-horz')
   get isHorScroll(): boolean {
