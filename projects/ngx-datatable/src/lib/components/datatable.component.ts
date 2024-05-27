@@ -389,7 +389,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
 
   /**
    * A boolean you can use to set the default behaviour of rows and groups
-   * whether they will start expanded or not. If ommited the default is NOT expanded.
+   * whether they will start expanded or not. If omitted the default is NOT expanded.
    *
    */
   @Input() groupExpansionDefault = false;
