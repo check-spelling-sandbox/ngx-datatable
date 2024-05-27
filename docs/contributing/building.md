@@ -2,7 +2,7 @@
 
 This project uses [npm tasks](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/) for builds.
 
-### Pre-reqs
+### Pre-requisites
 
 - Node >= 6.0.0
 - Angular CLI
