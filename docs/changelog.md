@@ -151,7 +151,7 @@
 
 ## 16.0.3
 
-- Bug: Fix disappearing rows with vertical scrollbar, virtual scrolling & rowdetail auto height (swimlane/ngx-datatable#1799)
+- Bug: Fix disappearing rows with vertical scrollbar, virtual scrolling & row detail auto height (swimlane/ngx-datatable#1799)
 - Bug: Fix memory leak due to created element not cleaned up (swimlane/ngx-datatable#1792)
 - Bug: do not collapse row details when row updated (swimlane/ngx-datatable#1778)
 
