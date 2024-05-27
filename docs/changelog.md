@@ -718,7 +718,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 ## 0.11.2
 
 - Enhancement: Add ability to define css icon classes for pager / header
-- Chore: Uprade to Angular 2.1.1
+- Chore: Upgrade to Angular 2.1.1
 
 ## 0.11.1
 
