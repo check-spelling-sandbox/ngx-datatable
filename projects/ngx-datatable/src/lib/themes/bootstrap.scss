@@ -3,7 +3,7 @@ $datatable-ghost-cell-container-background: #fff !default;
 $datatable-ghost-cell-strip-background: #dee2e5 !default;
 $datatable-ghost-cell-strip-background-image: linear-gradient(to right, $datatable-ghost-cell-strip-background 0%, $datatable-ghost-cell-strip-background 10%, #fff, transparent) !default;
 $datatable-ghost-cell-strip-radius: 0 !default;
-$datatble-ghost-cell-animation-duration: 10s;
+$datatable-ghost-cell-animation-duration: 10s;
 
 @import './ghost';
 @import './rows';
