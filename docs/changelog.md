@@ -375,7 +375,7 @@
 
 ## 9.3.0
 
-- Feature: Unviseral Rendering (swimlane/ngx-datatable#764)
+- Feature: Universal Rendering (swimlane/ngx-datatable#764)
 
 ## 9.2.0
 
