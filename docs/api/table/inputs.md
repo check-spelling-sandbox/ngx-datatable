@@ -42,7 +42,7 @@ Use external sorting instead of client-side sorting. Default value: `false`
 
 ## `footerHeight`
 
-The height of the footer in pixels. Pass a `falsey` for no footer. Default value: `0`
+The height of the footer in pixels. Pass a `falsy` for no footer. Default value: `0`
 
 ## `headerHeight`
 

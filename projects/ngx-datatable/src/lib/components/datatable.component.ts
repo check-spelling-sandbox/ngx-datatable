@@ -199,13 +199,13 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
 
   /**
    * The minimum header height in pixels.
-   * Pass a falsey for no header
+   * Pass a falsy for no header
    */
   @Input() headerHeight = 30;
 
   /**
    * The minimum footer height in pixels.
-   * Pass falsey for no footer
+   * Pass falsy for no footer
    */
   @Input() footerHeight = 0;
 
@@ -298,7 +298,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
    *  - `multiClick`
    *  - `cell`
    *
-   * For no selection pass a `falsey`.
+   * For no selection pass a `falsy`.
    * Default value: `undefined`
    */
   @Input() selectionType: SelectionType;
