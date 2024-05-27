@@ -14,7 +14,7 @@
 - Fix: revert add types for table rows
 
   We introduced a breaking change, as `undefined` was
-  not allowed as row input any more. Reverting the change
+  not allowed as row input anymore. Reverting the change
   and will re-introduce as the typing later.
 
 ## 22.2.0
@@ -165,7 +165,7 @@
 
 ## 16.0.0
 
-- Breaking: the release files are not under the `/release` folder any more. Also, paths to `themes` and `assets` have changed. If you are importing any assets or styles from the release folder, you would need to update the paths.
+- Breaking: the release files are not under the `/release` folder anymore. Also, paths to `themes` and `assets` have changed. If you are importing any assets or styles from the release folder, you would need to update the paths.
 - Chore: Migrates the project to angular-cli, making it compatible with Ivy (swimlane/ngx-datatable#1738)
 - Feature: Implements global module config via forRoot (swimlane/ngx-datatable#1688)
 - Feature: Colors of material style can be modified by target application (swimlane/ngx-datatable#1651)
