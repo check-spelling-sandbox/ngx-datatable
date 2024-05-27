@@ -216,7 +216,7 @@
 - Feat: Added reorderable input #1261
 - Fix: Fixed rowHeight type in body component #1295
 - Fix: Fixed row selection for bootstrap theme #1357
-- Fix: Reflect minWidh & maxWidth props to body cell #1361
+- Fix: Reflect minWidth & maxWidth props to body cell #1361
 
 ## 11.3.0
 
