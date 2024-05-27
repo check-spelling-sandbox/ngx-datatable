@@ -133,7 +133,7 @@
 
 ## 17.0.0
 
-- Chore: explicitly only suppot ng9
+- Chore: explicitly only support ng9
 
 ## 16.1.1
 
