@@ -473,7 +473,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 ## 6.3.0
 
 - Bug: Perform sort when sort icon is clicked (swimlane/ngx-datatable#536)
-- Bug: Fix resize handle overlaped by label (swimlane/ngx-datatable#521)
+- Bug: Fix resize handle overlapped by label (swimlane/ngx-datatable#521)
 - Chore: Fix relative imports for rollup (swimlane/ngx-datatable#542)
 - Chore: Linting
 
