@@ -169,7 +169,7 @@
 - Chore: Migrates the project to angular-cli, making it compatible with Ivy (swimlane/ngx-datatable#1738)
 - Feature: Implements global module config via forRoot (swimlane/ngx-datatable#1688)
 - Feature: Colors of material style can be modified by target application (swimlane/ngx-datatable#1651)
-- Bug: Fixes Exception in scoller component destroy (swimlane/ngx-datatable#1685)
+- Bug: Fixes Exception in scroller component destroy (swimlane/ngx-datatable#1685)
 - Bug: Fixes issue 1686: column resizing issue in force columns mode (no horizontal scroll) when container get smaller (swimlane/ngx-datatable#1687)
 - Docs: Updates demo pages (swimlane/ngx-datatable#1738)
 
