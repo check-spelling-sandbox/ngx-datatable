@@ -875,7 +875,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   }
 
   /**
-   * Recalulcates the column widths based on column width
+   * Recalculates the column widths based on column width
    * distribution mode and scrollbar offsets.
    */
   recalculateColumns(
