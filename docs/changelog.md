@@ -147,7 +147,7 @@
 - Fix: redraw after recalculate (swimlane/ngx-datatable#1816)
 - Fix: undefined row index for rows in groups (swimlane/ngx-datatable#1857)
 - Chore: Add pretty-quick as a precommit hook using husky (swimlane/ngx-datatable#1841)
-- Chore: Bump dependecies (swimlane/ngx-datatable#1858, swimlane/ngx-datatable#1862, swimlane/ngx-datatable#1859)
+- Chore: Bump dependencies (swimlane/ngx-datatable#1858, swimlane/ngx-datatable#1862, swimlane/ngx-datatable#1859)
 
 ## 16.0.3
 
@@ -505,7 +505,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 - Bug: Fix drag/drop/long-press (swimlane/ngx-datatable#506)
 - Bug: Fix row widths not set correctly (swimlane/ngx-datatable#510)
 - Perf: Better mouseup handling (swimlane/ngx-datatable#507)
-- Chore: Bump Depedencies
+- Chore: Bump Dependencies
 
 ## 6.0.2
 
@@ -524,7 +524,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 - Enhancement: Allow sorting from inline templates (swimlane/ngx-datatable#431)
 - Enhancement: Fix re-ordering columns throwing errors (swimlane/ngx-datatable#438)
 - Enhancement: Add nice drag indicator to material theme
-- Chore: Update Depedencies
+- Chore: Update Dependencies
 
 ## 5.0.0
 
@@ -688,7 +688,7 @@ _NOTE: If you need support for ~Angular2, use version 6.x._
 
 - Feature: NGC Compilation
 - Bug: Null value in deepValueGetter (swimlane/ngx-datatable#243)
-- Chore: Update Depedencies
+- Chore: Update Dependencies
 
 ## 1.0.0
 
