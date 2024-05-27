@@ -4,7 +4,7 @@
   - [Features](introduction/features.md)
   - [Architecture](introduction/architecture.md)
   - [Installing](introduction/installing.md)
-  - [Themeing](introduction/themes.md)
+  - [Theming](introduction/themes.md)
   - [Getting Started](introduction/getting-started.md)
   - [Change Detection](introduction/cd.md)
 - API
