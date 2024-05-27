@@ -19,7 +19,7 @@ ERROR TypeError: this.element.getBoundingClientRect is not a function
 
 This service must send back the dimensions of the grid or fallback to a default width.
 
-I am using the ideas about dimensions from client hints that I set on the signin page. http://httpwg.org/http-extensions/client-hints.html
+I am using the ideas about dimensions from client hints that I set on the sign in page. http://httpwg.org/http-extensions/client-hints.html
 
 ```typescript
 import { ScrollbarHelper } from '@siemens/ngx-datatable';

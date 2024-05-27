@@ -20,7 +20,7 @@ export class DatatableRowDetailDirective {
   }
 
   /**
-   * Row detail row visbility was toggled.
+   * Row detail row visibility was toggled.
    */
   @Output() toggle: EventEmitter<any> = new EventEmitter();
 

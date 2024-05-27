@@ -2,7 +2,7 @@
 
 This project uses [npm tasks](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/) for builds.
 
-### Pre-reqs
+### Pre-requisites
 
 - Node >= 6.0.0
 - Angular CLI
@@ -15,7 +15,7 @@ This project uses [npm tasks](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-
 - `npm run test`: Runs E2E Tests
 - `npm run package`: Runs builds, packages and copies results to `./release`
 
-### Depedencies
+### Dependencies
 
 - webpack (`npm install --global webpack`)
 - webpack-dev-server (`npm install --global webpack-dev-server`)

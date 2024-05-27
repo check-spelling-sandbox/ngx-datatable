@@ -76,7 +76,7 @@ import { ColumnMode } from 'projects/ngx-datatable/src/public-api';
     </div>
   `
 })
-export class ScollingDynamicallyComponent {
+export class ScrollingDynamicallyComponent {
   editing = {};
   rows = [];
 

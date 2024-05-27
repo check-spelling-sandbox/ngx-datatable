@@ -113,7 +113,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
     if (val) {
       this._groupRowsBy = val;
       if (this._rows && this._groupRowsBy) {
-        // cretes a new array with the data grouped
+        // creates a new array with the data grouped
         this.groupedRows = this.groupArrayBy(this._rows, this._groupRowsBy);
       }
     }
@@ -199,13 +199,13 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
 
   /**
    * The minimum header height in pixels.
-   * Pass a falsey for no header
+   * Pass a falsy for no header
    */
   @Input() headerHeight = 30;
 
   /**
    * The minimum footer height in pixels.
-   * Pass falsey for no footer
+   * Pass falsy for no footer
    */
   @Input() footerHeight = 0;
 
@@ -298,7 +298,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
    *  - `multiClick`
    *  - `cell`
    *
-   * For no selection pass a `falsey`.
+   * For no selection pass a `falsy`.
    * Default value: `undefined`
    */
   @Input() selectionType: SelectionType;
@@ -388,8 +388,8 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   @Input() displayCheck: (row: any, column?: any, value?: any) => boolean;
 
   /**
-   * A boolean you can use to set the detault behaviour of rows and groups
-   * whether they will start expanded or not. If ommited the default is NOT expanded.
+   * A boolean you can use to set the default behaviour of rows and groups
+   * whether they will start expanded or not. If omitted the default is NOT expanded.
    *
    */
   @Input() groupExpansionDefault = false;
@@ -504,7 +504,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   /**
    * Emits HTML5 native drag events.
    * Only emits dragenter, dragover, drop events by default.
-   * Set {@link rowDraggble} to true for dragstart and dragend.
+   * Set {@link rowDraggable} to true for dragstart and dragend.
    */
   @Output() rowDragEvents: EventEmitter<DragEventData> = new EventEmitter();
 
@@ -546,7 +546,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
 
   /**
    * CSS class applied to the root element
-   * if the horziontal scrolling is enabled.
+   * if the horizontal scrolling is enabled.
    */
   @HostBinding('class.scroll-horz')
   get isHorScroll(): boolean {
@@ -586,7 +586,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   }
 
   /**
-   * CSS class added to root element if mulit select
+   * CSS class added to root element if multi select
    */
   @HostBinding('class.multi-selection')
   get isMultiSelection(): boolean {
@@ -594,7 +594,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   }
 
   /**
-   * CSS class added to root element if mulit click select
+   * CSS class added to root element if multi click select
    */
   @HostBinding('class.multi-click-selection')
   get isMultiClickSelection(): boolean {
@@ -875,7 +875,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
   }
 
   /**
-   * Recalulcates the column widths based on column width
+   * Recalculates the column widths based on column width
    * distribution mode and scrollbar offsets.
    */
   recalculateColumns(
@@ -944,7 +944,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
    * Body triggered a page event.
    */
   onBodyPage({ offset }: any): void {
-    // Avoid pagination caming from body events like scroll when the table
+    // Avoid pagination coming from body events like scroll when the table
     // has no virtualization and the external paging is enable.
     // This means, let's the developer handle pagination by my him(her) self
     if (this.externalPaging && !this.virtualization) {
@@ -1178,7 +1178,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
    */
   onHeaderSelect(event: any): void {
     if (this.bodyComponent && this.selectAllRowsOnPage) {
-      // before we splice, chk if we currently have all selected
+      // before we splice, check if we currently have all selected
       const first = this.bodyComponent.indexes.first;
       const last = this.bodyComponent.indexes.last;
       const allSelected = this.selected.length === last - first;
@@ -1197,7 +1197,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit, After
       } else {
         relevantRows = this.rows;
       }
-      // before we splice, chk if we currently have all selected
+      // before we splice, check if we currently have all selected
       const allSelected = this.selected.length === relevantRows.length;
       // remove all existing either way
       this.selected = [];

@@ -794,7 +794,7 @@ export class DataTableBodyComponent implements OnInit, OnDestroy {
       this.rowHeightsCache.update(idx, detailRowHeight);
     }
 
-    // Update the toggled row and update thive nevere heights in the cache.
+    // Update the toggled row and update the heights in the cache.
     if (expanded) {
       this.rowExpansions.splice(rowExpandedIdx, 1);
     } else {

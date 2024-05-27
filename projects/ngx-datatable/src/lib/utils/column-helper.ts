@@ -64,7 +64,7 @@ export function setColumnDefaults(columns: TableColumn[]) {
     } else {
       if (column.isTreeColumn && !treeColumnFound) {
         // If the first column with isTreeColumn is true found
-        // we mark that treeCoulmn is found
+        // we mark that treeColumn is found
         treeColumnFound = true;
       } else {
         // After that isTreeColumn property for any other column

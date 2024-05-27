@@ -109,7 +109,7 @@ function scaleColumns(colsByGroup: any, maxWidth: any, totalFlexGrow: any) {
  *
  * Rules:
  *
- *  - If combined withs are less than the total width of the grid,
+ *  - If combined widths are less than the total width of the grid,
  *    proportion the widths given the min / max / normal widths to fill the width.
  *
  *  - If the combined widths, exceed the total width of the grid,

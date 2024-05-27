@@ -28,7 +28,7 @@ Height of the detail row.
 </ngx-datatable-row-detail>
 ```
 
-**Typescript**
+**TypeScript**
 
 ```javascript
 getHeight(row: any, index: number): number {

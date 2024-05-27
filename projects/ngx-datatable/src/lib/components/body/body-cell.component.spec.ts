@@ -34,7 +34,7 @@ describe('DataTableBodyCellComponent', () => {
   });
 
   describe('prop tests', () => {
-    // verify there wasn't a mistake where the falsey 0 value
+    // verify there wasn't a mistake where the falsy 0 value
     // resulted in a code path for missing column prop
     it('should get value from zero-index prop', () => {
       component.row = ['Hello'];
